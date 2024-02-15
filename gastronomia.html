@@ -4,7 +4,7 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <title>ESCRITORIO VIRTUAL</title> 
+    <title>ESCRITORIO VIRTUAL. Meteorología</title>
     <meta NAME="author" content="Gabriel García Martínez"/>
     <meta name ="description" content ="aquí cada documento debe tener la
         descripción del contenido concreto del mismo" />
@@ -13,17 +13,13 @@
         <meta name ="viewport" content ="width=device-width, 
             initial-scale=1.0" />
     
-    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
     <!-- <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/header.css" /> -->
     <link rel="icon" type="img/ico" href="multimedia/favicon.ico"/>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-    crossorigin="anonymous"></script>
-    <script src="js/fondo.js"></script>
 </head>
 
 <body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
     <header>
         <h1>Escritorio Virtual</h1>
         <nav> 
@@ -35,14 +31,8 @@
             <a accesskey="E" tabindex="6" href="reservas.html">Reservas</a>
         </nav>
     </header>
-    <script>
-        var fondo = new Fondo("Extremadura", "Mérida");
-        $(document).ready(() => {
-            fondo.consulta(0);
-        });  
-    </script>
-    <button type="button" onclick=fondo.consulta(1);>Anterior</button>
-    <button type="button" onclick=fondo.consulta(2);>Siguiente</button> 
-
+    
+    
+    
 </body>
 </html>

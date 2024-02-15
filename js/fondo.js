@@ -1,23 +1,30 @@
 class Fondo{
     
-    constructor(nompais, nomCapital, long, lat){
-        this.nompais = nompais;
+    constructor(nomCA, nomCapital){
+        this.nomCA = nomCA;
         this.nomCapital = nomCapital;
-        this.long = long;
-        this.lat = lat; 
+        this.j=0; 
     }
 
-    consulta(){
+    consulta(entrada){
+        if(entrada == 2)
+            this.j = this.j + 1;
+        else if (entrada == 0)
+            this.j = 0;
+        else 
+            this.j = this.j - 1;
+        console.log(this.j)
         var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+        var self = this;
             $.getJSON(flickrAPI, 
                     {
-                        tags: this.nompais,
+                        tags: this.nomCA,
                         tagmode: "any",
                         format: "json"
                     })
                 .done(function(data) {
-                        $.each(data.items, function(i, item) {          
-                            if ( i === 13 ) {
+                        $.each(data.items, function(i, item) {        
+                            if ( i == self.j) {
                                 var url = item.media.m.replace('_m','_b');
                                 $('body').css('background-image', 'url(' + url + ')').css('background-size', 'cover');
                                 return false;
