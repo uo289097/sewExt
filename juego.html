@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Preguntas</title>
+</head>
+<body>
+
+<div id="pregunta-container"></div>
+<button onclick="juego.empezarJuego()">Empezar Juego</button>
+
+<script>
+  class Juego {
+    constructor(preguntas) {
+      this.preguntas = preguntas;
+      this.puntuacion = 0;
+      this.preguntaActualIndex = 0;
+    }
+
+    empezarJuego() {
+      this.mostrarPregunta();
+      document.getElementById('pregunta-container').style.display = 'block';
+      document.querySelector('button').style.display = 'none';
+    }
+
+    mostrarPregunta() {
+      const preguntaContainer = document.getElementById('pregunta-container');
+      preguntaContainer.innerHTML = '';
+
+      const preguntaActual = this.preguntas[this.preguntaActualIndex];
+      
+      const preguntaElement = document.createElement('div');
+      preguntaElement.innerHTML = `
+        <h2>${preguntaActual.pregunta}</h2>
+        <div>
+          ${preguntaActual.opciones.map((opcion, index) => `<button onclick="juego.responder(${index})">${opcion}</button>`).join('')}
+        </div>
+      `;
+      
+      preguntaContainer.appendChild(preguntaElement);
+    }
+
+    responder(opcionSeleccionada) {
+      const preguntaActual = this.preguntas[this.preguntaActualIndex];
+
+      if (opcionSeleccionada === preguntaActual.respuestaCorrecta) {
+        this.puntuacion++;
+      }
+
+      this.preguntaActualIndex++;
+
+      if (this.preguntaActualIndex < this.preguntas.length) {
+        this.mostrarPregunta();
+      } else {
+        this.mostrarResultado();
+      }
+    }
+
+    mostrarResultado() {
+      const preguntaContainer = document.getElementById('pregunta-container');
+      preguntaContainer.innerHTML = `<h2>Juego completado. Tu puntuación es ${this.puntuacion}/${this.preguntas.length}.</h2>`;
+    }
+  }
+
+  // Crea una instancia de la clase Juego
+  const juego = new Juego([
+    { pregunta: "¿Cuál es el lema del proyecto?", opciones: ["Innovación para todos", "Haciendo el futuro", "Construyendo juntos", "Transformando vidas", "Cambiando el mundo"], respuestaCorrecta: 1 },
+    { pregunta: "¿Cuándo fue lanzado oficialmente el proyecto?", opciones: ["2020", "2018", "2015", "2022", "2019"], respuestaCorrecta: 3 },
+    // Agrega aquí las demás preguntas
+  ]);
+
+</script>
+
+</body>
+</html>
