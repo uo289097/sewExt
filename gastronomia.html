@@ -32,7 +32,105 @@
         </nav>
     </header>
     
+    <section>
+        <h2>Platos con carne</h2>
+        <ul>
+            <li>Chanfaina Extremeña</li>
+            <li>Frite de Cordero</li>
+            <li>Caldereta de cabrito</li>
+        </ul>
+        <p>Caldereta de cabrito:</p>
+        <picture>
+            <source media="(max-width: 575px)" srcset="multimedia/calderetaMov.jpg"/>
+            <source media="(max-width: 799px)" srcset="multimedia/calderetaTab.jpg"/>
+            <img alt="Caldereta de cabrito" src="multimedia/caldereta.jpg"/>
+        </picture>
+
+    </section>
     
+    <section>
+        <h2>Sopas</h2><!--TODO: En el css poner en mayúsculas-->
+        <table>
+            <caption>Sopas típicas en Extremadura</caption>
+            <tbody>
+                <tr>
+                    <th scope="col" id="Plato">Plato</th>
+                    <th scope="col" id="ingredientes">Ingredientes principales</th>
+                </tr>
+                <tr>
+                    <th scope="row" id="cojondongo" headers="Plato">Cojondongo</th>
+                    <td headers="cojondongo ingredientes">Pan, vinagre, aceite, ajo, agua y sal</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="ajoblanco" headers="Plato">Ajoblanco</th>
+                    <td headers="ajoblanco ingredientes">Pan, almendra molida, agua, aceite de oliva, ajo, vinagre y sal</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="tomate" headers="Plato">Sopa de tomate extremeña</th>
+                    <td headers="tomate ingredientes">Tomates, cebolla, pimiento, pimentón y pan tostado</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="patatas" headers="Plato">Sopa de patatas extremeña</th>
+                    <td headers="patatas ingredientes">Patatas, pan, pimientos, cebolla, pimentón, ajo y sal</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Postres/dulces</h2><!--TODO: En el css poner en mayúsculas-->
+        <ol>
+            <li>Con harina
+                <ol>
+                    <li>Regaña Artesana “Castuera”</li>
+                    <li>Pestiños</li>
+                    <li>Flores</li>
+                </ol>
+            </li>
+            <li>Quesos
+                <ol>
+                    <li>Torta del casar</li>
+                    <li>Queso de La Serena</li>
+                    <li>Queso de Ibores</li>
+                    <li>Queso de Acehúche</li>
+                </ol>
+            </li>
+        </ol>
+        <p>Cómo abrir la torta del casar:</p>
+        <video controls preload="auto">
+            <source src="multimedia/Torta_del_Casar.mp4"
+                type="video/mp4" />
+            <source src="multimedia/Torta_del_Casar.avi"
+                type="video/avi" />
+            <source src="multimedia/Torta_del_Casar.mov"
+                type="video/mov" />
+        </video>
+    </section>
+
+
+    <section>
+        <h2>Otros platos típicos</h2><!--TODO: En el css poner en mayúsculas-->
+        <dl>
+            <dt>Gazpacho Extremeño</dt>
+                <dd>Incluye miga de pan y yema de huevo que lo usan como espesante, lo que hace que 
+                    se parezca más al salmorejo cordobés que al gazpacho andaluz. Lo elaboran también 
+                    con pimentón de la vera para darle ese toque rojo, pimiento y cebolla.
+                </dd>
+            <dt>Migas extremeñas</dt>
+                <dd>Este plato se crea para no desperdiciar el pan cuando se pone duro. Se elabora, por 
+                    tanto, con pan duro al que se le agrega tocino, chorizo, pimientos, sardinas, entre 
+                    otros. Se sofríen en una sartén y la costumbre es comerlas directamente de la sartén.
+                </dd>
+            <dt>Pipirigaña</dt>
+                <dd>Se elabora con carne asada o pollo y se hace una salsa con almendra molida aderezada 
+                    con azafrán y yema de huevo. Se guarda en hielo, ya que cuanto más frío esté mejor.
+                </dd>
+            <dt>Sopicaldo</dt>
+                <dd>Para degustar a media mañana. Es un picadillo de distintas hortalizas, pimiento, tomate, 
+                    pepino, se le puede añadir melva, caballa o atún y se aliña con aceite de Extremadura.
+                </dd>
+        </dl>
+    </section>
     
 </body>
 </html>
