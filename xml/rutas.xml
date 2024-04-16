@@ -22,27 +22,27 @@
                 cuyas ruinas aún se pueden contemplar en el lugar, gracias a lo cual se encuentra en un estado de 
                 conservación excepcional."/>
             <coordenadasHito longitud="38.91666787787563" latitud="-6.344240045103326" altitud="230"/>
-            <distancia>11,7km</distancia>
+            <distancia>900m</distancia>
             <fotografias ruta="xml/templo-diana.jpg"/>
         </hito>
         <hito nombreHito="Alcazaba árabe">
             <descripcionHito desc="Raro monumento árabe en la antigua ciudad romana rodeada por un extenso 
                 foso de agua y palmeras."/>
             <coordenadasHito longitud="38.91640075152674" latitud="-6.346299981549169" altitud="230"/>
-            <distancia>7,7km</distancia>
+            <distancia>300m</distancia>
             <fotografias ruta="xml/alcazaba.jpg"/>
         </hito>
         <hito nombreHito="Basílica de Santa Eulalia">
             <descripcionHito desc="Dedicada a la mártir Santa Eulalia, patrona de la ciudad. La actual iglesia 
             románica fue construida en el siglo XIII sobre las ruinas de una basílica destruida por los árabes."/>
             <coordenadasHito longitud="38.92083150463876" latitud="-6.341483022362118" altitud="222"/>
-            <distancia>14,1m</distancia>
+            <distancia>700m</distancia>
             <fotografias ruta="xml/basilicaSantaEulalia.jpeg"/>
         </hito>
         <hito nombreHito="Acueducto de los Milagros">
             <descripcionHito desc="Obra maestra de ingeniería que habría abastecido de agua a la actual Mérida."/>
             <coordenadasHito longitud="38.92397142102753" latitud="-6.34783871626723" altitud="240"/>
-            <distancia>14,1m</distancia>
+            <distancia>1km</distancia>
             <fotografias ruta="xml/acueducto-milagros.jpg"/>
         </hito>
     </ruta>
@@ -59,40 +59,40 @@
         <coordenadasInicio longitud="39.46071160469938" latitud="-5.8811357125364925" altitud="230"/>
         <referencias>
             <ref nom="https://www.tripadvisor.es/AttractionProductReview-g562640-d27479799-OFFICIAL_TOUR_TRUJILLO_Cradle_of_Hispanidad_and_Conquistadors-Trujillo_Province_of.html"/>
-            <ref nom="https://www.jollofappetit.com/"/>
-            <ref nom="https://www.facebook.com/Jollofappetit/"/>
+            <ref nom="https://www.turismotrujillo.es/"/>
+            <ref nom="https://www.aleguias.com/es/activity-card/110/499/5711/tour-oficial-trujillo-cuna-de-la-hispanidad-y-de-conquistadores"/>
         </referencias>
         <recomendacion nota="10"/>
         <hito nombreHito="Plaza Mayor de Trujillo">
             <descripcionHito desc="Flanqueada por torres defensivas y presidida por la famosa 
             estatua ecuestre del Conquistador Francisco Pizarro. "/>
             <coordenadasHito longitud="39.46071160469938" latitud="-5.8811357125364925" altitud="230"/>
-            <distancia>0km</distancia>
-            <fotografias ruta="XML/trujillo-plaza-mayor.jpg"/>
+            <distancia>0m</distancia>
+            <fotografias ruta="xml/trujillo-plaza-mayor.jpg"/>
         </hito>
         <hito nombreHito="Iglesia de Santa María la Mayor">
             <descripcionHito desc="Fue el edifico religioso más relevante de la ciudad, donde 
             están enterrados los principales linajes y los más ilustres Conquistadores que forjaron 
             su pasado medieval"/>
             <coordenadasHito longitud="39.46074792141739" latitud="-5.884551046920885" altitud="240"/>
-            <distancia>13,6km</distancia>
-            <fotografias ruta="XML/iglesia-de-santa-maria-la-mayor.jpg"/>
+            <distancia>400m</distancia>
+            <fotografias ruta="xml/iglesia-de-santa-maria-la-mayor.jpg"/>
         </hito>
         <hito nombreHito="Aljibe Hispano-Musulman">
             <descripcionHito desc="Aljibe de tracería árabe, con tres naves sobre muros maestros y 
             arcos sostenidos por pilastras, cubiertos con tres bóvedas de medio cañón. Los materiales 
             utilizados en su construcción son sillares de granito, mampostería y argamasa."/>
             <coordenadasHito longitud="39.46009127270497" latitud="-5.883986360413977" altitud="250"/>
-            <distancia>11,2m</distancia>
-            <fotografias ruta="XML/aljibe_musulman.jpg"/>
+            <distancia>120m</distancia>
+            <fotografias ruta="xml/aljibe_musulman.jpg"/>
         </hito>
     </ruta>
 
     <ruta nombre="Ruta en buggy" precio="170,00€">
         <tipo tipo="Paisajística"/>
         <medio transporte="Buggy"/>
-        <inicio fecha="martes" hora="10:00"/>
-        <tiempo horas="3h"/>
+        <inicio fecha="martes" hora="09:30"/>
+        <tiempo horas="4h"/>
         <agencia nombre="XtremaBuggy rutas y aventuras"/>
         <descripcion des="Los recorridos por la Dehesa Extremeña son especialmente atractivos por ser 
         ésta un ecosistema único en el mundo. Su visita y conocimiento le sorprenderan en todo su recorrido 
@@ -101,29 +101,29 @@
         <coordenadasInicio longitud="38.15204272139418" latitud="-6.209986151012874" altitud="260"/>
         <referencias>
             <ref nom="https://www.tripadvisor.es/AttractionProductReview-g2449893-d20886745-ROUTE_IN_BUGGY_1_30h-Montemolin_Province_of_Badajoz_Extremadura.html"/>
-            <ref nom="https://www.viator.com/tours/Kigali/Smooth-City-Rides-Kigalis-Effortless-Motorcycle-Journey/d22362-428299P2"/>
-            <ref nom="https://www.getyourguide.com/go-rwanda-now-s306181/"/>
+            <ref nom="https://www.xtremabuggy.com/rutas-excursiones-buggy-quads-caceres/"/>
+            <ref nom="https://www.yumping.com/buggies/extremadura"/>
         </referencias>
         <recomendacion nota="9"/>
-        <hito nombreHito="Nyarutarama LakeSide Loop">
-            <descripcionHito desc="Lago con brillantes reflejos de las luces de la ciudad que crean un ambiente 
-            fascinante mientras recorres esta ruta pintoresca y dinámica."/>
-            <coordenadasHito longitud="-1.938422434902687" latitud="30.096681588513196" altitud="1567"/>
-            <distancia>2km</distancia>
-            <fotografias ruta="XML/Nyarutarama-Lake.jpeg"/>
+        <hito nombreHito="Nacimineto del río Viar">
+            <descripcionHito desc="Lugar del nacimineto del río Viar, principal afluente del Guadalquivir."/>
+            <coordenadasHito longitud="38.05984752910489" latitud="-5.998275425692669" altitud="570"/>
+            <distancia>23,9km</distancia>
+            <fotografias ruta="xml/rio-viar.jpeg"/>
         </hito>
-        <hito nombreHito="Kigali City Tower">
-            <descripcionHito desc="Rascacielos en el corazón de la ciudad"/>
-            <coordenadasHito longitud="-1.9442136714370886" latitud="30.05861612157197" altitud="1840"/>
-            <distancia>6,4km</distancia>
-            <fotografias ruta="XML/kigali-Tower.jpg"/>
+        <hito nombreHito="Zona de Interés Regional Llanos de Cáceres y Sierra de Fuentes">
+            <descripcionHito desc="Área extensa de llanuras con suaves pendientes que se extiende desde Brozas 
+            hasta Trujillo"/>
+            <coordenadasHito longitud="39.44777884203578" latitud="-6.190741748288021" altitud="510"/>
+            <distancia>184km</distancia>
+            <fotografias ruta="xml/sierradefuentes.jpg"/>
         </hito>
-        <hito nombreHito="Mt Kigali">
-            <descripcionHito desc="Cima de la gran montaña"/>
-            <coordenadasHito longitud="-1.9678390578188296" latitud="30.037413725279492" altitud="1853"/>
-            <distancia>5,7km</distancia>
-            <fotografias ruta="XML/Mt-Kigali.jpg"/>
-        </hito> 
+        <hito nombreHito="Observatorio de aves-Llanos de Cáceres">
+            <descripcionHito desc="Zona de observación de un gran número de aves."/>
+            <coordenadasHito longitud="39.4773991628095" latitud="-6.189282626309012" altitud="520"/>
+            <distancia>5km</distancia>
+            <fotografias ruta="xml/observatorio.jpg"/>
+        </hito>
     </ruta>
     
 </rutas>
