@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE rutas SYSTEM "/rutas.xsd"> -->
+<rutas xmlns="http://tempuri.org/rutas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://tempuri.org/rutas rutas.xsd">
+    <ruta nombre="Kigali City Tour" precio = "124.14" >
+        <tipo tipo="Arquitectura y monumentos"/>
+        <medio transporte="4x4"/>
+        <inicio hora= "10:00:00" />
+        <tiempo horas="2"/>
+        <agencia nombre="Usalama Tours Rwanda"/>
+        <descripcion des = "Recorrido por los principales emplazamientos turísticos 
+        de Kigali"/>
+        <lugarInicio emplazamiento="Kigali Intl. Airport, Kigali Rwanda"/>
+        <coordenadasInicio longitud="-1.9631684426286098" latitud="30.13481609514575" 
+            altitud="1491"/> 
+        <referencias>  
+            <ref nom="https://www.tripadvisor.es/AttractionProductReview-g293829-d19867336-Kigali_City_Tour-Kigali_Kigali_Province.html"/>
+            <ref nom="https://www.facebook.com/usalamatours/posts/-kigali-city-tour-visit-rwanda-its-true-that-kigalicity-has-its-uniqueness-in-te/5531623756889594/"/>
+            <ref nom="https://activities.marriott.com/things-to-do/V28Hi37gSgLgp70-kigali-city-tour?currency=MXN"/>
+        </referencias>
+        <recomendacion nota="10"/>
+        <hito nombreHito="Kigali Genocide Memorial">
+            <descripcionHito desc= "Memorial del Genocidio de Kigali es el lugar de descanso final 
+            para más de 250,000 víctimas del Genocidio contra los Tutsi en Ruanda"/>
+            <coordenadasHito longitud="-1.9304981294036196" latitud="30.060610525279337" 
+            altitud="1491"/>
+            <distancia>11.7</distancia>
+            <fotografias ruta="XML/kigali_Genocide_Memorial.jpeg"/>
+        </hito>
+        <hito nombreHito="Mt. Kigali">
+            <descripcionHito desc= "Cima de la gran montaña"/>
+            <coordenadasHito longitud="-1.9678390578188296" latitud="30.037413725279492" 
+                altitud="1853"/>
+            <distancia>7.7</distancia>
+            <fotografias ruta="XML/Mt-Kigali.jpg"/>
+        </hito>
+        <hito nombreHito="Kimironko Market">
+            <descripcionHito desc= "Mercado local que vende todo bajo el sol: verduras, frutas, zapatos, ropa, etc."/>
+            <coordenadasHito longitud="-1.9496459597957208" latitud="30.126193415753214" 
+                altitud="1491"/>
+            <distancia>14.1</distancia>
+            <fotografias ruta="XML/kimironko-market.jpeg"/>
+        </hito>
+    </ruta>
+
+    <ruta nombre="Recorrido gastronómico a pie" precio="85.48" >
+        <tipo tipo="Gastronómica"/>
+        <medio transporte="A pie"/>
+        <inicio hora="11:30:00"/>
+        <tiempo horas="3.5"/>
+        <agencia nombre="Jollof'Appétit"/>
+        <descripcion des = "Ruta gastronómica por el área de Nyamirambo"/>
+        <lugarInicio emplazamiento="Restaurante ISAME"/>
+        <coordenadasInicio longitud="-1.9730101241339306" latitud="30.054926164344415" 
+        altitud="1567"/>
+        <referencias>
+            <ref nom="https://www.tripadvisor.es/AttractionProductReview-g293829-d25127207-Rwanda_Half_Day_Walking_Food_Tour-Kigali_Kigali_Province.html"/>
+            <ref nom="https://www.jollofappetit.com/"/>
+            <ref nom="https://www.facebook.com/Jollofappetit/"/>
+        </referencias>
+        <recomendacion nota="9"/>
+        <hito nombreHito="Restaurante Isame">
+            <descripcionHito desc= "Platos basados en ugali (harina de maíz)"/>
+            <coordenadasHito longitud="-1.9730101241339306" latitud="30.054926164344415" 
+            altitud="1567"/>
+            <distancia>0</distancia>
+            <fotografias ruta="XML/isame-restaurant.jpg"/>
+        </hito>
+        <hito nombreHito="Restaurante Fantastic Plaza">
+            <descripcionHito desc= "Platos basados en Matoke(plátanos macho)"/>
+            <coordenadasHito longitud="-1.9282648762110604" latitud="29.987351596668873" 
+            altitud="1567"/>
+            <distancia>13.6</distancia>
+            <fotografias ruta="XML/fantastic-restaurant.jpg"/>
+        </hito>
+        <hito nombreHito="Delight Restaurant">
+            <descripcionHito desc= "Platos de tilapia, cabra, pollo y brochetas de ternera"/>
+            <coordenadasHito longitud="-1.9406391758348043" latitud="30.044242016115437" 
+                altitud="1567"/>
+            <distancia>11.2</distancia>
+            <fotografias ruta="XML/delight-restaurant.jpeg"/>
+        </hito>
+    </ruta>
+
+    <ruta nombre="Smooth City Ride Tour " precio="21.61">
+        <tipo tipo="Arquitectura y monumentos"/>
+        <medio transporte="Motocicleta"/>
+        <inicio fecha="2023-10-20" hora="22:00:00"/>
+        <tiempo horas="4"/>
+        <agencia nombre="Go Rwanda Now"/>
+        <descripcion des = "Ruta nocturna en motocicleta por Kigali, con visita a 
+        Kiyovu, Nyamirambo y el paso elevado de Gishushu"/>
+        <lugarInicio emplazamiento="Rotonda con Radisson y Kigali Heights"/>
+        <coordenadasInicio longitud="-1.9534979659522846" latitud="30.09244995518062" 
+            altitud="1567"/>
+        <referencias>
+            <ref nom="https://www.tripadvisor.es/AttractionProductReview-g293829-d26700924-Smooth_City_Ride_Tour_in_Kigali_using_Motorcycle-Kigali_Kigali_Province.html"/>
+            <ref nom="https://www.viator.com/tours/Kigali/Smooth-City-Rides-Kigalis-Effortless-Motorcycle-Journey/d22362-428299P2"/>
+            <ref nom="https://www.getyourguide.com/go-rwanda-now-s306181/"/>
+        </referencias>
+        <recomendacion nota="8"/>
+        <hito nombreHito="Nyarutarama LakeSide Loop">
+            <descripcionHito desc= "Lago con brillantes reflejos de las luces de la ciudad que crean un ambiente 
+            fascinante mientras recorres esta ruta pintoresca y dinámica."/>
+            <coordenadasHito longitud="-1.938422434902687" latitud="30.096681588513196" 
+            altitud="1567"/>
+            <distancia>2</distancia>
+            <fotografias ruta="XML/Nyarutarama-Lake.jpeg"/>
+        </hito>
+        <hito nombreHito="Kigali City Tower">
+            <descripcionHito desc= "Rascacielos en el corazón de la ciudad"/>
+            <coordenadasHito longitud="-1.9442136714370886" latitud="30.05861612157197" 
+            altitud="1840"/>
+            <distancia>6.4</distancia>
+            <fotografias ruta="XML/kigali-Tower.jpg"/>
+        </hito>
+        <hito nombreHito="Mt Kigali">
+            <descripcionHito desc= "Cima de la gran montaña"/>
+            <coordenadasHito longitud="-1.9678390578188296" latitud="30.037413725279492" 
+            altitud="1853"/>
+            <distancia>5.7</distancia>
+            <fotografias ruta="XML/Mt-Kigali.jpg"/>
+        </hito> 
+    </ruta>
+    
+</rutas>
