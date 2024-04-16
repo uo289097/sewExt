@@ -2,7 +2,7 @@
 <!DOCTYPE rutas SYSTEM "rutas.dtd">
 
 <rutas>
-    <ruta nombre="Recorrido histórico privado a pie en Mérida" precio = "124,14€">
+    <ruta nombre="Recorrido histórico privado a pie en Mérida" precio="350,00€">
         <tipo tipo="Arquitectura y monumentos"/>
         <medio transporte="A pie"/>
         <inicio hora="10:00"/>
@@ -12,98 +12,114 @@
         <lugarInicio emplazamiento="Teatro Romano de Mérida, Anfiteatro, C. Pedro María Plano, Mérida, Spain"/>
         <coordenadasInicio longitud="38.9154955804914" latitud="-6.338398156697899" altitud="217"/>
         <referencias>
-            <ref nom="https://www.tripadvisor.es/AttractionProductReview-g293829-d19867336-Kigali_City_Tour-Kigali_Kigali_Province.html"/>
-            <ref nom="https://www.facebook.com/usalamatours/posts/-kigali-city-tour-visit-rwanda-its-true-that-kigalicity-has-its-uniqueness-in-te/5531623756889594/"/>
-            <ref nom="https://activities.marriott.com/things-to-do/V28Hi37gSgLgp70-kigali-city-tour?currency=MXN"/>
+            <ref nom="https://www.tripadvisor.es/AttractionProductReview-g227871-d27160207-Private_Historic_Walking_Tour_in_Merida-Merida_Province_of_Badajoz_Extremadura.html"/>
+            <ref nom="https://www.getyourguide.es/merida-spain-l146194/merida-private-historic-walking-tour-t586690/?visitor-id=C7GNH34522E165C3TLCWY51UU0CD428C&amp;locale_autoredirect_optout=true"/>
+            <ref nom="https://www.blackbucktravels.com/tour/private-historic-walking-tour-in-merida"/>
         </referencias>
         <recomendacion nota="8"/>
-        <hito nombreHito="Kigali Genocide Memorial">
-            <descripcionHito desc= "Memorial del Genocidio de Kigali es el lugar de descanso final 
-            para más de 250,000 víctimas del Genocidio contra los Tutsi en Ruanda"/>
-            <coordenadasHito longitud="-1.9304981294036196" latitud="30.060610525279337" altitud="1491"/>
+        <hito nombreHito="Templo de Diana">
+            <descripcionHito desc="Templo que sirvió de fundamento y cubierta de un palacio renacentista del siglo XVI 
+                cuyas ruinas aún se pueden contemplar en el lugar, gracias a lo cual se encuentra en un estado de 
+                conservación excepcional."/>
+            <coordenadasHito longitud="38.91666787787563" latitud="-6.344240045103326" altitud="230"/>
             <distancia>11,7km</distancia>
-            <fotografias ruta="XML/kigali_Genocide_Memorial.jpeg"/>
+            <fotografias ruta="xml/templo-diana.jpg"/>
         </hito>
-        <hito nombreHito="Mt. Kigali">
-            <descripcionHito desc= "Cima de la gran montaña"/>
-            <coordenadasHito longitud="-1.9678390578188296" latitud="30.037413725279492" altitud="1853"/>
+        <hito nombreHito="Alcazaba árabe">
+            <descripcionHito desc="Raro monumento árabe en la antigua ciudad romana rodeada por un extenso 
+                foso de agua y palmeras."/>
+            <coordenadasHito longitud="38.91640075152674" latitud="-6.346299981549169" altitud="230"/>
             <distancia>7,7km</distancia>
-            <fotografias ruta="XML/Mt-Kigali.jpg"/>
+            <fotografias ruta="xml/alcazaba.jpg"/>
         </hito>
-        <hito nombreHito="Kimironko Market">
-            <descripcionHito desc= "Mercado local que vende todo bajo el sol: verduras, frutas, zapatos, ropa, etc."/>
-            <coordenadasHito longitud="-1.9496459597957208" latitud="30.126193415753214" altitud="1491"/>
+        <hito nombreHito="Basílica de Santa Eulalia">
+            <descripcionHito desc="Dedicada a la mártir Santa Eulalia, patrona de la ciudad. La actual iglesia 
+            románica fue construida en el siglo XIII sobre las ruinas de una basílica destruida por los árabes."/>
+            <coordenadasHito longitud="38.92083150463876" latitud="-6.341483022362118" altitud="222"/>
             <distancia>14,1m</distancia>
-            <fotografias ruta="XML/kimironko-market.jpeg"/>
+            <fotografias ruta="xml/basilicaSantaEulalia.jpeg"/>
+        </hito>
+        <hito nombreHito="Acueducto de los Milagros">
+            <descripcionHito desc="Obra maestra de ingeniería que habría abastecido de agua a la actual Mérida."/>
+            <coordenadasHito longitud="38.92397142102753" latitud="-6.34783871626723" altitud="240"/>
+            <distancia>14,1m</distancia>
+            <fotografias ruta="xml/acueducto-milagros.jpg"/>
         </hito>
     </ruta>
 
-    <ruta nombre="Recorrido gastronómico a pie" precio="85,48€">
-        <tipo tipo="Gastronómica"/>
+    <ruta nombre="Tour oficial por Trujillo" precio="12,50€">
+        <tipo tipo="Cultural histórica"/>
         <medio transporte="A pie"/>
-        <inicio hora="11:30"/>
-        <tiempo horas="3,5h"/>
-        <agencia nombre="Jollof'Appétit"/>
-        <descripcion des = "Ruta gastronómica por el área de Nyamirambo"/>
-        <lugarInicio emplazamiento="Restaurante ISAME"/>
-        <coordenadasInicio longitud="-1.9730101241339306" latitud="30.054926164344415" altitud="1567m"/>
+        <inicio hora="10:30"/>
+        <tiempo horas="2h"/>
+        <agencia nombre="Aleguías de turismo"/>
+        <descripcion des="Tour por todos los enclaves de Interés Turístico del Conjunto Histórico medieval 
+            y renacentista de Trujillo (Cáceres)."/>
+        <lugarInicio emplazamiento="Plaza Mayor de Trujillo"/>
+        <coordenadasInicio longitud="39.46071160469938" latitud="-5.8811357125364925" altitud="230"/>
         <referencias>
-            <ref nom="https://www.tripadvisor.es/AttractionProductReview-g293829-d25127207-Rwanda_Half_Day_Walking_Food_Tour-Kigali_Kigali_Province.html"/>
+            <ref nom="https://www.tripadvisor.es/AttractionProductReview-g562640-d27479799-OFFICIAL_TOUR_TRUJILLO_Cradle_of_Hispanidad_and_Conquistadors-Trujillo_Province_of.html"/>
             <ref nom="https://www.jollofappetit.com/"/>
             <ref nom="https://www.facebook.com/Jollofappetit/"/>
         </referencias>
-        <recomendacion nota="9"/>
-        <hito nombreHito="Restaurante Isame">
-            <descripcionHito desc= "Platos basados en ugali (harina de maíz)"/>
-            <coordenadasHito longitud="-1.9730101241339306" latitud="30.054926164344415" altitud="1567"/>
+        <recomendacion nota="10"/>
+        <hito nombreHito="Plaza Mayor de Trujillo">
+            <descripcionHito desc="Flanqueada por torres defensivas y presidida por la famosa 
+            estatua ecuestre del Conquistador Francisco Pizarro. "/>
+            <coordenadasHito longitud="39.46071160469938" latitud="-5.8811357125364925" altitud="230"/>
             <distancia>0km</distancia>
-            <fotografias ruta="XML/isame-restaurant.jpg"/>
+            <fotografias ruta="XML/trujillo-plaza-mayor.jpg"/>
         </hito>
-        <hito nombreHito="Restaurante Fantastic Plaza">
-            <descripcionHito desc= "Platos basados en Matoke(plátanos macho)"/>
-            <coordenadasHito longitud="-1.9282648762110604" latitud="29.987351596668873" altitud="1567"/>
+        <hito nombreHito="Iglesia de Santa María la Mayor">
+            <descripcionHito desc="Fue el edifico religioso más relevante de la ciudad, donde 
+            están enterrados los principales linajes y los más ilustres Conquistadores que forjaron 
+            su pasado medieval"/>
+            <coordenadasHito longitud="39.46074792141739" latitud="-5.884551046920885" altitud="240"/>
             <distancia>13,6km</distancia>
-            <fotografias ruta="XML/fantastic-restaurant.jpg"/>
+            <fotografias ruta="XML/iglesia-de-santa-maria-la-mayor.jpg"/>
         </hito>
-        <hito nombreHito="Delight Restaurant">
-            <descripcionHito desc= "Platos de tilapia, cabra, pollo y brochetas de ternera"/>
-            <coordenadasHito longitud="-1.9406391758348043" latitud="30.044242016115437" altitud="1567"/>
+        <hito nombreHito="Aljibe Hispano-Musulman">
+            <descripcionHito desc="Aljibe de tracería árabe, con tres naves sobre muros maestros y 
+            arcos sostenidos por pilastras, cubiertos con tres bóvedas de medio cañón. Los materiales 
+            utilizados en su construcción son sillares de granito, mampostería y argamasa."/>
+            <coordenadasHito longitud="39.46009127270497" latitud="-5.883986360413977" altitud="250"/>
             <distancia>11,2m</distancia>
-            <fotografias ruta="XML/delight-restaurant.jpeg"/>
+            <fotografias ruta="XML/aljibe_musulman.jpg"/>
         </hito>
     </ruta>
 
-    <ruta nombre="Smooth City Ride Tour " precio="21,61€">
-        <tipo tipo="Arquitectura y monumentos"/>
-        <medio transporte="Motocicleta"/>
-        <inicio fecha="martes" hora="22:00"/>
-        <tiempo horas="4h"/>
-        <agencia nombre="Go Rwanda Now"/>
-        <descripcion des = "Ruta nocturna en motocicleta por Kigali, con visita a 
-        Kiyovu, Nyamirambo y el paso elevado de Gishushu"/>
-        <lugarInicio emplazamiento="Rotonda con Radisson y Kigali Heights"/>
-        <coordenadasInicio longitud="-1.9534979659522846" latitud="30.09244995518062" altitud="1567m"/>
+    <ruta nombre="Ruta en buggy" precio="170,00€">
+        <tipo tipo="Paisajística"/>
+        <medio transporte="Buggy"/>
+        <inicio fecha="martes" hora="10:00"/>
+        <tiempo horas="3h"/>
+        <agencia nombre="XtremaBuggy rutas y aventuras"/>
+        <descripcion des="Los recorridos por la Dehesa Extremeña son especialmente atractivos por ser 
+        ésta un ecosistema único en el mundo. Su visita y conocimiento le sorprenderan en todo su recorrido 
+        e interpretación."/>
+        <lugarInicio emplazamiento="Grupo Xtremabuggy"/>
+        <coordenadasInicio longitud="38.15204272139418" latitud="-6.209986151012874" altitud="260"/>
         <referencias>
-            <ref nom="https://www.tripadvisor.es/AttractionProductReview-g293829-d26700924-Smooth_City_Ride_Tour_in_Kigali_using_Motorcycle-Kigali_Kigali_Province.html"/>
+            <ref nom="https://www.tripadvisor.es/AttractionProductReview-g2449893-d20886745-ROUTE_IN_BUGGY_1_30h-Montemolin_Province_of_Badajoz_Extremadura.html"/>
             <ref nom="https://www.viator.com/tours/Kigali/Smooth-City-Rides-Kigalis-Effortless-Motorcycle-Journey/d22362-428299P2"/>
             <ref nom="https://www.getyourguide.com/go-rwanda-now-s306181/"/>
         </referencias>
-        <recomendacion nota="8"/>
+        <recomendacion nota="9"/>
         <hito nombreHito="Nyarutarama LakeSide Loop">
-            <descripcionHito desc= "Lago con brillantes reflejos de las luces de la ciudad que crean un ambiente 
+            <descripcionHito desc="Lago con brillantes reflejos de las luces de la ciudad que crean un ambiente 
             fascinante mientras recorres esta ruta pintoresca y dinámica."/>
             <coordenadasHito longitud="-1.938422434902687" latitud="30.096681588513196" altitud="1567"/>
             <distancia>2km</distancia>
             <fotografias ruta="XML/Nyarutarama-Lake.jpeg"/>
         </hito>
         <hito nombreHito="Kigali City Tower">
-            <descripcionHito desc= "Rascacielos en el corazón de la ciudad"/>
+            <descripcionHito desc="Rascacielos en el corazón de la ciudad"/>
             <coordenadasHito longitud="-1.9442136714370886" latitud="30.05861612157197" altitud="1840"/>
             <distancia>6,4km</distancia>
             <fotografias ruta="XML/kigali-Tower.jpg"/>
         </hito>
         <hito nombreHito="Mt Kigali">
-            <descripcionHito desc= "Cima de la gran montaña"/>
+            <descripcionHito desc="Cima de la gran montaña"/>
             <coordenadasHito longitud="-1.9678390578188296" latitud="30.037413725279492" altitud="1853"/>
             <distancia>5,7km</distancia>
             <fotografias ruta="XML/Mt-Kigali.jpg"/>
